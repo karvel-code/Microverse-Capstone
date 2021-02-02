@@ -60,6 +60,8 @@ $section-color: rgb(199, 195, 195);
 }
 
 .hot-deals {
+  display: flex;
+  flex-direction: row;  
   align-items: $centre-align;
 }
 
