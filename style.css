@@ -4,6 +4,10 @@
 }
 
 .first-header {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   background-color: #383838;
 }
 
@@ -11,6 +15,10 @@
   border-radius: 10%;
   background-color: #d35266;
   border: none;
+}
+
+.home-navigation {
+  color: #d35266;
 }
 
 .text-format {
@@ -40,14 +48,25 @@
   border: none;
 }
 
+.search-button {
+  background-color: #383838;
+  border-radius: 10%;
+  border: none;
+  margin-top: 10px;
+}
+
 .nav-image {
   width: 50px;
 }
 
 .hot-deals {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .p-hot-deals {
@@ -64,5 +83,4 @@
 .section-bg-color {
   background-color: #c7c3c3;
 }
-
 /*# sourceMappingURL=style.css.map */

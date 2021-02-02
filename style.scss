@@ -8,7 +8,6 @@ $margin-center: auto;
 $font-white: white;
 $width-size-half: 50%;
 $none-styling: none;
-// $flex-box: flex;
 $centre-align: center;
 $section-color: rgb(199, 195, 195);
 
@@ -19,6 +18,7 @@ $section-color: rgb(199, 195, 195);
 }
 
 .first-header {
+  flex-direction: row;
   background-color: $darkgrey;
 }
 
@@ -26,6 +26,10 @@ $section-color: rgb(199, 195, 195);
   border-radius: $button-edges;
   background-color: $pink;
   border: $none-styling;
+}
+
+.home-navigation{
+  color: $pink;
 }
 
 .text-format {
@@ -55,11 +59,19 @@ $section-color: rgb(199, 195, 195);
   border: $none-styling;
 }
 
+.search-button {
+  background-color: $darkgrey;
+  border-radius: $button-edges;
+  border: $none-styling;
+  margin-top: 10px;
+}
+
 .nav-image {
   width: 50px;
 }
 
 .hot-deals {
+  flex-direction: row;
   align-items: $centre-align;
 }
 
