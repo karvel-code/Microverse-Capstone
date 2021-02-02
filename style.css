@@ -137,4 +137,8 @@
 .add-info, .section-three-font, footer {
   font-family: "helve-medium";
 }
+
+.checkbox-font, .results-font {
+  font-family: "gotham-light";
+}
 /*# sourceMappingURL=style.css.map */

@@ -140,6 +140,10 @@ $section-color: rgb(199, 195, 195);
   border-radius: $button-edges;
 }
 
-.add-info, .section-three-font, footer{
+.add-info, .section-three-font, footer,{
   font-family: "helve-medium";
+}
+
+.checkbox-font, .results-font{
+  font-family: "gotham-light";
 }
