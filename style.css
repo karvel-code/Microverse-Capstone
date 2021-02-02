@@ -46,8 +46,8 @@
 
 .hot-deals {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .p-hot-deals {
@@ -64,4 +64,5 @@
 .section-bg-color {
   background-color: #c7c3c3;
 }
+
 /*# sourceMappingURL=style.css.map */
