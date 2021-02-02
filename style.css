@@ -24,7 +24,7 @@
 }
 
 @font-face {
-  font-family: "k";
+  font-family: "gotham-rounded";
   src: url("/fonts/Gotham-Rounded-Light_21020.ttf");
 }
 
@@ -56,6 +56,14 @@
   background-color: #d35266;
   color: white;
   font-weight: 500;
+}
+
+.header-two .header-font {
+  font-family: "gotham-bold";
+}
+
+.header-two .header-font-2 {
+  font-family: "gotham-rounded";
 }
 
 .form-width {

@@ -38,9 +38,10 @@ $section-color: rgb(199, 195, 195);
 }
 
 @font-face{
-  font-family: "k";
+  font-family: "gotham-rounded";
   src: url("/fonts/Gotham-Rounded-Light_21020.ttf");
 }
+
 .first-header {
   flex-direction: row;
   background-color: $darkgrey;
@@ -66,6 +67,14 @@ $section-color: rgb(199, 195, 195);
   background-color: $pink;
   color: $font-white;
   font-weight: $bold-light;
+  .header-font{
+    font-family: "gotham-bold";
+  }
+
+  .header-font-2{
+    font-family: "gotham-rounded";
+  }
+  
 }
 
 .form-width {
