@@ -28,7 +28,7 @@ $section-color: rgb(199, 195, 195);
 }
 
 @font-face{
-  font-family:"helve-ultra";
+  font-family:"helve-light";
   src:url("/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf")
 }
 
@@ -51,6 +51,7 @@ $section-color: rgb(199, 195, 195);
   border-radius: $button-edges;
   background-color: $pink;
   border: $none-styling;
+  font-family: "gotham-rounded";
 }
 
 .home-navigation{
@@ -58,7 +59,7 @@ $section-color: rgb(199, 195, 195);
 }
 
 .text-format {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family:"helve-bold";
   color: $font-white;
   font-weight: $bold-dark;
 }
@@ -73,6 +74,10 @@ $section-color: rgb(199, 195, 195);
 
   .header-font-2{
     font-family: "gotham-rounded";
+  }
+  
+  .form-font{
+    font-family: "helve-medium";
   }
   
 }
@@ -110,6 +115,11 @@ $section-color: rgb(199, 195, 195);
 
 .p-hot-deals {
   color: $pink;
+  font-family: "helve-medium";
+}
+
+.hot-deals-text{
+  font-family: "gotham-rounded";
 }
 
 .hot-deals-button {
@@ -117,13 +127,19 @@ $section-color: rgb(199, 195, 195);
   color: $font-white;
   border-radius: $button-edges;
   border: $none-styling;
+  font-family: "gotham-rounded";
 }
 
-.section-bg-color {
+.section-formatting {
   background-color: rgb(199, 195, 195);
+  font-family: "gotham-rounded";
 }
 
 .price-button{
   background-color: $pink;
   border-radius: $button-edges;
+}
+
+.add-info, .section-three-font, footer{
+  font-family: "helve-medium";
 }

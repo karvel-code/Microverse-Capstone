@@ -14,7 +14,7 @@
 }
 
 @font-face {
-  font-family: "helve-ultra";
+  font-family: "helve-light";
   src: url("/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf");
 }
 
@@ -40,6 +40,7 @@
   border-radius: 10%;
   background-color: #d35266;
   border: none;
+  font-family: "gotham-rounded";
 }
 
 .home-navigation {
@@ -47,7 +48,7 @@
 }
 
 .text-format {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "helve-bold";
   color: white;
   font-weight: 700;
 }
@@ -64,6 +65,10 @@
 
 .header-two .header-font-2 {
   font-family: "gotham-rounded";
+}
+
+.header-two .form-font {
+  font-family: "helve-medium";
 }
 
 .form-width {
@@ -104,6 +109,11 @@
 
 .p-hot-deals {
   color: #d35266;
+  font-family: "helve-medium";
+}
+
+.hot-deals-text {
+  font-family: "gotham-rounded";
 }
 
 .hot-deals-button {
@@ -111,14 +121,20 @@
   color: white;
   border-radius: 10%;
   border: none;
+  font-family: "gotham-rounded";
 }
 
-.section-bg-color {
+.section-formatting {
   background-color: #c7c3c3;
+  font-family: "gotham-rounded";
 }
 
 .price-button {
   background-color: #d35266;
   border-radius: 10%;
+}
+
+.add-info, .section-three-font, footer {
+  font-family: "helve-medium";
 }
 /*# sourceMappingURL=style.css.map */
