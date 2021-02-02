@@ -3,6 +3,31 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "helve-bold";
+  src: url("/fonts/FontsFree-Net-HelveticaNeueBold.ttf");
+}
+
+@font-face {
+  font-family: "helve-medium";
+  src: url("/fonts/FontsFree-Net-HelveticaNeueMedium.ttf");
+}
+
+@font-face {
+  font-family: "helve-ultra";
+  src: url("/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf");
+}
+
+@font-face {
+  font-family: "gotham-bold";
+  src: url("/fonts/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: "k";
+  src: url("/fonts/Gotham-Rounded-Light_21020.ttf");
+}
+
 .first-header {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -82,5 +107,10 @@
 
 .section-bg-color {
   background-color: #c7c3c3;
+}
+
+.price-button {
+  background-color: #d35266;
+  border-radius: 10%;
 }
 /*# sourceMappingURL=style.css.map */
