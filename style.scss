@@ -1,0 +1,79 @@
+//variables
+$darkgrey: #383838;
+$pink: #d35266;
+$bold-light: 500;
+$bold-dark: 700;
+$button-edges: 10%;
+$margin-center: auto;
+$font-white: white;
+$width-size-half: 50%;
+$none-styling: none;
+// $flex-box: flex;
+$centre-align: center;
+$section-color: rgb(199, 195, 195);
+
+//styling
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first-header {
+  background-color: $darkgrey;
+}
+
+.first-header-button {
+  border-radius: $button-edges;
+  background-color: $pink;
+  border: $none-styling;
+}
+
+.text-format {
+  font-family: Helvetica, Arial, sans-serif;
+  color: $font-white;
+  font-weight: $bold-dark;
+}
+
+.header-two {
+  background-color: $pink;
+  color: $font-white;
+  font-weight: $bold-light;
+}
+
+.form-width {
+  width: 50%;
+  margin: $margin-center;
+}
+
+.second-header-button {
+  width: $width-size-half;
+  margin: $margin-center;
+  color: $font-white;
+  font-weight: $bold-light;
+  border-radius: $button-edges;
+  background-color: $darkgrey;
+  border: $none-styling;
+}
+
+.nav-image {
+  width: 50px;
+}
+
+.hot-deals {
+  align-items: $centre-align;
+}
+
+.p-hot-deals {
+  color: $pink;
+}
+
+.hot-deals-button {
+  background-color: $pink;
+  color: $font-white;
+  border-radius: $button-edges;
+  border: $none-styling;
+}
+
+.section-bg-color {
+  background-color: rgb(199, 195, 195);
+}

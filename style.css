@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.first-header {
+  background-color: #383838;
+}
+
+.first-header-button {
+  border-radius: 10%;
+  background-color: #d35266;
+  border: none;
+}
+
+.text-format {
+  font-family: Helvetica, Arial, sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+.header-two {
+  background-color: #d35266;
+  color: white;
+  font-weight: 500;
+}
+
+.form-width {
+  width: 50%;
+  margin: auto;
+}
+
+.second-header-button {
+  width: 50%;
+  margin: auto;
+  color: white;
+  font-weight: 500;
+  border-radius: 10%;
+  background-color: #383838;
+  border: none;
+}
+
+.nav-image {
+  width: 50px;
+}
+
+.hot-deals {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.p-hot-deals {
+  color: #d35266;
+}
+
+.hot-deals-button {
+  background-color: #d35266;
+  color: white;
+  border-radius: 10%;
+  border: none;
+}
+
+.section-bg-color {
+  background-color: #c7c3c3;
+}
+/*# sourceMappingURL=style.css.map */
