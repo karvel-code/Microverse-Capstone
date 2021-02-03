@@ -27,18 +27,9 @@
             <!-- <i class="far fa-apple-alt my-2 mx-1"></i> -->
             <p class="mx-2 mt-2 pt-2 text-format">Apple Shop</p>
           </div>
-
-          <div class="">
-            <a class="d-none d-md-block text-decoration-none mt-3 mx-1 icon-color" href="#"><i class="fas fa-home"></i>
-              Home</a>
-          </div>
-          <div>
-            <a class="d-none d-md-block text-decoration-none mt-3 mx-1 text-white" href="#"><i
-                class="fas fa-th-large"></i> Collections</a>
-          </div>
-          <div>
-            <a class="d-none d-md-block mt-3 mx-1 text-white" href="#"><i class="fas fa-shopping-cart"></i></a>
-          </div>
+          <a class=" mt-3 home d-none d-md-block icon-color text-decoration-none" href="#"><i class="fas fa-home"></i> Home</a>
+            <a class=" mt-3 d-none d-md-block icon-color text-decoration-none" href="#"><i class="fas fa-th-large"></i> Collections</a>
+            <a class=" mt-3 d-none d-md-block icon-color text-decoration-none" href="#"><i class="fas fa-shopping-cart"></i></a>
           <div>
             <button type="button" class="first-header-button mt-3 mx-2 text-white">
               Adverts
@@ -46,39 +37,34 @@
           </div>
         </div>
         <!-- second header -->
-        <div class=" header-two align-center">
+        <div class="d-flex flex-column flex-sm-column header-two align-center">
           <div>
             <h1 class="mb-0 text-center header-font">Apple Shop</h1>
             <h2 class="mb-0 text-center header-font-2">
               Get your Apple products from us today!
             </h2>
           </div>
-        </div>
-        <div class=" align-items-center header-two header-two-1 ">
-          <div class="input-group ">
-            <select class="custom-select input-form" id="inputGroupSelect04">
-              <option selected>Ios Version</option>
-              <option value="ios10">Ios 10</option>
-              <option value="ios12">Ios 12</option>
-              <option value="ios14">Ios 14</option>
-            </select>
-          </div>
           <div>
-          <input class="input-form" type="text" placeholder="  Search by Category" />
+            <form class="form-font input-row ">
+              <div class=" mb-1 form-width input-space">
+                <input type="text" class="form-control my-2" placeholder="Iphone type " />
+              </div>
+              <div class="mb-1 form-width input-space">
+                <input type="text" class="form-control my-2" placeholder="Edition" />
+              </div>
+              <div class="mt-3 mb-2 form-font input-space">
+                <a href="./search.html"
+                  class="p-1 mx-1 mt-5 d-inline text-decoration-none text-center text-white search-button">
+                  Search
+                </a>
+              </div>
+            </form>
           </div>
-          <div>
-          <input class="input-form" type="text" placeholder="  Filter" />
-          </div>
-          <div>
-          <a class="btn search w-100 search-button" href="search.html">Search</a>
-          </div>
-        </div>
-
         </div>
       </nav>
     </header>
     <!-- section 1 -->
-    <section>
+    <section class="mb-2">
       <article class="container">
         <div class="row">
           <div class="col-12 col-sm-12">
@@ -413,7 +399,7 @@
   <!-- Option 1: Bootstrap Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
-  </script>
+    </script>
 
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <!--
