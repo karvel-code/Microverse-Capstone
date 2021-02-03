@@ -31,8 +31,8 @@
 .first-header {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   background-color: #383838;
 }
 
@@ -44,7 +44,7 @@
   border-radius: 10%;
   background-color: #d35266;
   border: none;
-  font-family: "gotham-rounded" sans-serif;
+  font-family: "gotham-rounded", sans-serif;
 }
 
 .home-navigation {
@@ -52,7 +52,7 @@
 }
 
 .text-format {
-  font-family: "helve-bold" sans-serif;
+  font-family: "helve-bold", sans-serif;
   color: white;
   font-weight: 700;
 }
@@ -70,20 +70,20 @@
   color: white;
   font-weight: 500;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header-two .header-font {
-  font-family: "gotham-bold" sans-serif;
+  font-family: "gotham-bold", sans-serif;
 }
 
 .header-two .header-font-2 {
-  font-family: "gotham-rounded" sans-serif;
+  font-family: "gotham-rounded", sans-serif;
 }
 
 .header-two .form-font {
-  font-family: "helve-medium" sans-serif;
+  font-family: "helve-medium", sans-serif;
 }
 
 .input-form {
@@ -93,11 +93,10 @@
 
 .input-group {
   display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .input-group select {
@@ -132,21 +131,21 @@
 .hot-deals {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .p-hot-deals {
   color: #d35266;
-  font-family: "helve-medium" sans-serif;
+  font-family: "helve-medium", sans-serif;
   margin-top: 0.5rem;
 }
 
 .hot-deals-text {
-  font-family: "gotham-rounded" sans-serif;
+  font-family: "gotham-rounded", sans-serif;
 }
 
 .hot-deals-button {
@@ -154,7 +153,7 @@
   color: white;
   border-radius: 10%;
   border: none;
-  font-family: "gotham-rounded" sans-serif;
+  font-family: "gotham-rounded", sans-serif;
 }
 
 .button-padding {
@@ -163,7 +162,7 @@
 
 .section-formatting {
   background-color: #888;
-  font-family: "gotham-rounded" sans-serif;
+  font-family: "gotham-rounded", sans-serif;
 }
 
 .card-space {
@@ -173,66 +172,69 @@
 .add-info,
 .section-three-font,
 footer {
-  font-family: "helve-medium" sans-serif;
+  font-family: "helve-medium", sans-serif;
 }
 
 .checkbox-font,
 .results-font {
-  font-family: "gotham-light" sans-serif;
+  font-family: "gotham-light", sans-serif;
 }
 
 @media screen and (max-width: 767px) {
   .header-two {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
 @media screen and (min-width: 768px) {
   .header-two-1 {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
   }
+
   .arrows {
     padding-right: 20px;
     padding-left: 20px;
   }
+
   .grid {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 3fr;
-        grid-template-columns: 1fr 3fr;
+    grid-template-columns: 1fr 3fr;
   }
+
   .section-1 {
     border-right: 1px solid #888;
   }
+
   .input-row {
     display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   .input-space {
     margin: 0.5rem;
   }
 }
+
 /*# sourceMappingURL=style.css.map */

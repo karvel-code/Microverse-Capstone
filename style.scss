@@ -55,7 +55,7 @@ $section-color: #888;
   border-radius: $button-edges;
   background-color: $pink;
   border: $none-styling;
-  font-family: "gotham-rounded" sans-serif;
+  font-family: "gotham-rounded", sans-serif;
 }
 
 .home-navigation {
@@ -63,7 +63,7 @@ $section-color: #888;
 }
 
 .text-format {
-  font-family: "helve-bold" sans-serif;
+  font-family: "helve-bold", sans-serif;
   color: $font-white;
   font-weight: $bold-dark;
 }
@@ -83,15 +83,15 @@ $section-color: #888;
   align-items: center;
 
   .header-font {
-    font-family: "gotham-bold" sans-serif;
+    font-family: "gotham-bold", sans-serif;
   }
 
   .header-font-2 {
-    font-family: "gotham-rounded" sans-serif;
+    font-family: "gotham-rounded", sans-serif;
   }
 
   .form-font {
-    font-family: "helve-medium" sans-serif;
+    font-family: "helve-medium", sans-serif;
   }
 }
 
@@ -142,12 +142,12 @@ $section-color: #888;
 
 .p-hot-deals {
   color: $pink;
-  font-family: "helve-medium" sans-serif;
+  font-family: "helve-medium", sans-serif;
   margin-top: 0.5rem;
 }
 
 .hot-deals-text {
-  font-family: "gotham-rounded" sans-serif;
+  font-family: "gotham-rounded", sans-serif;
 }
 
 .hot-deals-button {
@@ -155,7 +155,7 @@ $section-color: #888;
   color: $font-white;
   border-radius: $button-edges;
   border: $none-styling;
-  font-family: "gotham-rounded" sans-serif;
+  font-family: "gotham-rounded", sans-serif;
 }
 
 .button-padding {
@@ -164,7 +164,7 @@ $section-color: #888;
 
 .section-formatting {
   background-color: $section-color;
-  font-family: "gotham-rounded" sans-serif;
+  font-family: "gotham-rounded", sans-serif;
 }
 
 .card-space {
@@ -174,12 +174,12 @@ $section-color: #888;
 .add-info,
 .section-three-font,
 footer {
-  font-family: "helve-medium" sans-serif;
+  font-family: "helve-medium", sans-serif;
 }
 
 .checkbox-font,
 .results-font {
-  font-family: "gotham-light" sans-serif;
+  font-family: "gotham-light", sans-serif;
 }
 
 @media screen and (max-width: 767px) {
