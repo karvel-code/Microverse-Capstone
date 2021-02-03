@@ -9,22 +9,22 @@
 }
 
 @font-face {
-  font-family: "helve-medium" sans-serif;
+  font-family: "helve-medium", sans-serif;
   src: url("/fonts/FontsFree-Net-HelveticaNeueMedium.ttf");
 }
 
 @font-face {
-  font-family: "helve-light" sans-serif;
+  font-family: "helve-light", sans-serif;
   src: url("/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf");
 }
 
 @font-face {
-  font-family: "gotham-bold" sans-serif;
+  font-family: "gotham-bold", sans-serif;
   src: url("/fonts/Gotham-Bold.otf");
 }
 
 @font-face {
-  font-family: "gotham-rounded" sans-serif;
+  font-family: "gotham-rounded", sans-serif;
   src: url("/fonts/Gotham-Rounded-Light_21020.ttf");
 }
 
