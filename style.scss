@@ -67,11 +67,18 @@ $section-color: #888888;
   color: $font-white;
   font-weight: $bold-dark;
 }
+.header-two-1{
+  width: 100%;
+  input {
+    width: 50vw;
+  }
+}
 
 .header-two {
   background-color: $pink;
   color: $font-white;
   font-weight: $bold-light;
+ 
 
   .header-font {
     font-family: "gotham-bold";
@@ -88,7 +95,15 @@ $section-color: #888888;
 
 .input-form {
   border: $none-styling;
-  border-radius: $button-edges;
+  border-radius: 5px;
+}
+
+.input-group{
+  display: flex;
+  justify-content: center;
+  select {
+  width: 50vw;
+  }
 }
 
 .form-width {
@@ -159,6 +174,7 @@ footer {
   font-family: "helve-medium";
 }
 
+
 .checkbox-font,
 .results-font {
   font-family: "gotham-light";
@@ -172,16 +188,11 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  .input-area {
+  .header-two-1{
     display: flex;
     flex-direction: row;
-    // justify-content: center;
-    align-items: center;
+    justify-content: center;
   }
-
-  // .resp-width{
-  //   width: 20%;
-  // }
 
   .arrows {
     padding-right: 20px;
