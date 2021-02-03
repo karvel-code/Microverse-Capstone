@@ -9,7 +9,7 @@ $font-white: white;
 $width-size-half: 50%;
 $none-styling: none;
 $centre-align: center;
-$section-color: rgb(199, 195, 195);
+$section-color: #888888;
 
 //styling
 * {
@@ -47,6 +47,10 @@ $section-color: rgb(199, 195, 195);
   background-color: $darkgrey;
 }
 
+.icon-color{
+  color: $pink;
+}
+
 .first-header-button {
   border-radius: $button-edges;
   background-color: $pink;
@@ -82,8 +86,13 @@ $section-color: rgb(199, 195, 195);
   
 }
 
+.input-form{
+  border: $none-styling;
+  border-radius: $button-edges;
+}
+
 .form-width {
-  width: 50%;
+  // width: 50%;
   margin: $margin-center;
 }
 
@@ -116,6 +125,7 @@ $section-color: rgb(199, 195, 195);
 .p-hot-deals {
   color: $pink;
   font-family: "helve-medium";
+  margin-top: 0.5rem;
 }
 
 .hot-deals-text{
@@ -130,14 +140,17 @@ $section-color: rgb(199, 195, 195);
   font-family: "gotham-rounded";
 }
 
+.button-padding{
+  padding-bottom: 1rem;
+}
+
 .section-formatting {
-  background-color: rgb(199, 195, 195);
+  background-color: $section-color;
   font-family: "gotham-rounded";
 }
 
-.price-button{
-  background-color: $pink;
-  border-radius: $button-edges;
+.card-space{
+  margin: 1rem 0.5rem 0 0.5rem ;
 }
 
 .add-info, .section-three-font, footer,{
@@ -146,4 +159,30 @@ $section-color: rgb(199, 195, 195);
 
 .checkbox-font, .results-font{
   font-family: "gotham-light";
+}
+
+@media screen and (max-width:767px){
+  .header-two{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width:768px){
+  .input-area{
+    display: flex;
+    flex-direction: row;
+    // justify-content: center;
+    align-items: center;
+  }
+
+
+  // .resp-width{
+  //   width: 20%;
+  // }
+
+  .arrows{
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }

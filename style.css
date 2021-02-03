@@ -36,6 +36,10 @@
   background-color: #383838;
 }
 
+.icon-color {
+  color: #d35266;
+}
+
 .first-header-button {
   border-radius: 10%;
   background-color: #d35266;
@@ -71,8 +75,12 @@
   font-family: "helve-medium";
 }
 
+.input-form {
+  border: none;
+  border-radius: 10%;
+}
+
 .form-width {
-  width: 50%;
   margin: auto;
 }
 
@@ -110,6 +118,7 @@
 .p-hot-deals {
   color: #d35266;
   font-family: "helve-medium";
+  margin-top: 0.5rem;
 }
 
 .hot-deals-text {
@@ -124,14 +133,17 @@
   font-family: "gotham-rounded";
 }
 
+.button-padding {
+  padding-bottom: 1rem;
+}
+
 .section-formatting {
-  background-color: #c7c3c3;
+  background-color: #888888;
   font-family: "gotham-rounded";
 }
 
-.price-button {
-  background-color: #d35266;
-  border-radius: 10%;
+.card-space {
+  margin: 1rem 0.5rem 0 0.5rem;
 }
 
 .add-info, .section-three-font, footer {
@@ -140,5 +152,36 @@
 
 .checkbox-font, .results-font {
   font-family: "gotham-light";
+}
+
+@media screen and (max-width: 767px) {
+  .header-two {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .input-area {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .arrows {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
