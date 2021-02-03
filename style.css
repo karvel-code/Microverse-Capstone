@@ -31,8 +31,8 @@
 .first-header {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   background-color: #383838;
 }
 
@@ -108,11 +108,11 @@
 .hot-deals {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .p-hot-deals {
@@ -146,11 +146,14 @@
   margin: 1rem 0.5rem 0 0.5rem;
 }
 
-.add-info, .section-three-font, footer {
+.add-info,
+.section-three-font,
+footer {
   font-family: "helve-medium";
 }
 
-.checkbox-font, .results-font {
+.checkbox-font,
+.results-font {
   font-family: "gotham-light";
 }
 
@@ -161,8 +164,8 @@
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 
@@ -173,15 +176,17 @@
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   .arrows {
     padding-right: 20px;
     padding-left: 20px;
   }
 }
+
 /*# sourceMappingURL=style.css.map */

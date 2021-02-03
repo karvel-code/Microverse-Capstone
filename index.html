@@ -1,35 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
 
-    <title>Apple Shop</title>
-  </head>
-  <body>
-    <main>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <title>Apple Shop</title>
+</head>
+
+<body>
+  <main>
     <header>
       <nav>
         <!-- first header -->
-        <div
-          class="first-header d-flex d-sm-flex flex-sm-row justify-content-between"
-        >
+        <div class="first-header d-flex d-sm-flex flex-sm-row justify-content-between">
           <div class="d-flex d-sm-flex">
             <img src="./Assets/apple.png" alt="Apple logo" class="nav-image" />
             <!-- <i class="far fa-apple-alt my-2 mx-1"></i> -->
@@ -37,49 +29,48 @@
           </div>
 
           <div class="">
-            <a class="d-none d-md-block text-decoration-none mt-3 mx-1 icon-color" href="#"><i class="fas fa-home"></i> Home</a>
+            <a class="d-none d-md-block text-decoration-none mt-3 mx-1 icon-color" href="#"><i class="fas fa-home"></i>
+              Home</a>
           </div>
           <div>
-            <a class="d-none d-md-block text-decoration-none mt-3 mx-1 text-white" href="#"><i class="fas fa-th-large"></i> Collections</a>
+            <a class="d-none d-md-block text-decoration-none mt-3 mx-1 text-white" href="#"><i
+                class="fas fa-th-large"></i> Collections</a>
           </div>
           <div>
             <a class="d-none d-md-block mt-3 mx-1 text-white" href="#"><i class="fas fa-shopping-cart"></i></a>
           </div>
           <div>
-            <button
-              type="button"
-              class="first-header-button mt-3 mx-2 text-white"
-            >
+            <button type="button" class="first-header-button mt-3 mx-2 text-white">
               Adverts
             </button>
           </div>
         </div>
         <!-- second header -->
-          <div class="d-flex flex-column flex-sm-column header-two align-center">
+        <div class="d-flex flex-column flex-sm-column header-two align-center">
           <div>
             <h1 class="mb-0 text-center header-font">Apple Shop</h1>
             <h2 class="mb-0 text-center header-font-2">
               Get your Apple products from us today!
             </h2>
           </div>
+        </div>
+        <div class="input d-flex align-items-center header-two justify-content-center">
+          <div class="input-group">
+            <select class="custom-select" id="inputGroupSelect04">
+              <option selected>Ios Version</option>
+              <option value="ios10">Ios 10</option>
+              <option value="ios12">Ios 12</option>
+              <option value="ios14">Ios 14</option>
+            </select>
           </div>
-          <div class="input d-flex align-items-center header-two justify-content-center">
-            <div class="input-group">
-              <select class="custom-select" id="inputGroupSelect04">
-                <option selected>Ios Version</option>
-                <option value="ios10">Ios 10</option>
-                <option value="ios12">Ios 12</option>
-                <option value="ios14">Ios 14</option>
-              </select>
-            </div>
-            <input class="input2" type="text" placeholder="  Search by Category" />
-            <input class="input3" type="text" placeholder="  Filter" />
-            <a class="btn search w-100 search-button" href="search.html">Search</a>
-          </div>
-        
-       </div>     
-    </nav>
-  </header>
+          <input class="input2" type="text" placeholder="  Search by Category" />
+          <input class="input3" type="text" placeholder="  Filter" />
+          <a class="btn search w-100 search-button" href="search.html">Search</a>
+        </div>
+
+        </div>
+      </nav>
+    </header>
     <!-- section 1 -->
     <section>
       <article class="container">
@@ -93,11 +84,7 @@
                   <a href="#"><i class="fas fa-arrow-left text-dark arrows"></i></a>
                 </div>
                 <div>
-                  <img
-                    src="./Assets/iphoneX.jpg"
-                    alt="Iphone Xs"
-                    class="img-fluid"
-                  />
+                  <img src="./Assets/iphoneX.jpg" alt="Iphone Xs" class="img-fluid" />
                 </div>
                 <div>
                   <p class="small hot-deals-text">
@@ -111,11 +98,11 @@
               </div>
             </div>
             <div class="d-flex justify-content-center button-padding ">
-              <a href="./search.html" class = " p-2 mx-2 d-inline text-decoration-none align-center hot-deals-button">
+              <a href="./search.html" class=" p-2 mx-2 d-inline text-decoration-none align-center hot-deals-button">
                 <i class="fas fa-shopping-cart"></i>
                 Order
               </a>
-              <a href="./search.html" class = " p-2 mx-2 d-inline text-decoration-none align-center hot-deals-button">
+              <a href="./search.html" class=" p-2 mx-2 d-inline text-decoration-none align-center hot-deals-button">
                 $899
               </a>
             </div>
@@ -123,12 +110,8 @@
               <a class="text-dark" href="./search.html">
                 <i class="fas fa-mobile"></i>
               </a>
-              <a
-                class="text-dark text-decoration-none small"
-                href="./search.html"
-              >
-                View all</a
-              >
+              <a class="text-dark text-decoration-none small" href="./search.html">
+                View all</a>
             </div>
           </div>
         </div>
@@ -141,11 +124,7 @@
           <div class="row">
             <div class="col-6 col-md-3">
               <div class="card card-space ">
-                <img
-                  src="./Assets/iphone12.png"
-                  class="card-img-top"
-                  alt="Iphone 12"
-                />
+                <img src="./Assets/iphone12.png" class="card-img-top" alt="Iphone 12" />
                 <div class="card-body">
                   <p class="small">
                     IPHONE 12. 2020 EDITION. 4GB RAM. 256GB ROM.
@@ -161,11 +140,7 @@
             </div>
             <div class="col-6 col-md-3">
               <div class="card card-space ">
-                <img
-                  src="./Assets/iphone12.png"
-                  class="card-img-top"
-                  alt="Iphone 12"
-                />
+                <img src="./Assets/iphone12.png" class="card-img-top" alt="Iphone 12" />
                 <div class="card-body">
                   <p class="small">
                     IPHONE 12. 2020 EDITION. 4GB RAM. 256GB ROM.
@@ -181,11 +156,7 @@
             </div>
             <div class="col-6 col-md-3">
               <div class="card card-space ">
-                <img
-                  src="./Assets/iphone12.png"
-                  class="card-img-top"
-                  alt="Iphone 12"
-                />
+                <img src="./Assets/iphone12.png" class="card-img-top" alt="Iphone 12" />
                 <div class="card-body">
                   <p class="small">
                     IPHONE 12. 2020 EDITION. 4GB RAM. 256GB ROM.
@@ -201,11 +172,7 @@
             </div>
             <div class="col-6 col-md-3">
               <div class="card card-space ">
-                <img
-                  src="./Assets/iphone12.png"
-                  class="card-img-top"
-                  alt="Iphone 12"
-                />
+                <img src="./Assets/iphone12.png" class="card-img-top" alt="Iphone 12" />
                 <div class="card-body">
                   <p class="small">
                     IPHONE 12. 2020 EDITION. 4GB RAM. 256GB ROM.
@@ -226,8 +193,7 @@
             <i class="fas fa-mobile"></i>
           </a>
           <a class="text-dark text-decoration-none small add-info" href="./search.html">
-            View all</a
-          >
+            View all</a>
         </div>
       </article>
     </section>
@@ -238,11 +204,7 @@
           <div class="row">
             <div class="col-6 col-md-3">
               <div class="card card-space ">
-                <img
-                  src="./Assets/iphone12.png"
-                  class="card-img-top"
-                  alt="Iphone 12"
-                />
+                <img src="./Assets/iphone12.png" class="card-img-top" alt="Iphone 12" />
                 <div class="card-body">
                   <p class="small">
                     IPHONE 12. 2020 EDITION. 4GB RAM. 256GB ROM.
@@ -258,11 +220,7 @@
             </div>
             <div class="col-6 col-md-3">
               <div class="card card-space ">
-                <img
-                  src="./Assets/iphone12.png"
-                  class="card-img-top"
-                  alt="Iphone 12"
-                />
+                <img src="./Assets/iphone12.png" class="card-img-top" alt="Iphone 12" />
                 <div class="card-body">
                   <p class="small">
                     IPHONE 12. 2020 EDITION. 4GB RAM. 256GB ROM.
@@ -278,11 +236,7 @@
             </div>
             <div class="col-6 col-md-3">
               <div class="card card-space ">
-                <img
-                  src="./Assets/iphone12.png"
-                  class="card-img-top"
-                  alt="Iphone 12"
-                />
+                <img src="./Assets/iphone12.png" class="card-img-top" alt="Iphone 12" />
                 <div class="card-body">
                   <p class="small">
                     IPHONE 12. 2020 EDITION. 4GB RAM. 256GB ROM.
@@ -298,11 +252,7 @@
             </div>
             <div class="col-6 col-md-3">
               <div class="card card-space ">
-                <img
-                  src="./Assets/iphone12.png"
-                  class="card-img-top"
-                  alt="Iphone 12"
-                />
+                <img src="./Assets/iphone12.png" class="card-img-top" alt="Iphone 12" />
                 <div class="card-body">
                   <p class="small">
                     IPHONE 12. 2020 EDITION. 4GB RAM. 256GB ROM.
@@ -323,8 +273,7 @@
             <i class="fas fa-mobile"></i>
           </a>
           <a class="text-dark text-decoration-none small add-info" href="./search.html">
-            View all</a
-          >
+            View all</a>
         </div>
       </article>
     </section>
@@ -334,11 +283,7 @@
           <div class="row">
             <div class="col-6 col-md-3">
               <div class="card card-space ">
-                <img
-                  src="./Assets/iphone12.png"
-                  class="card-img-top"
-                  alt="Iphone 12"
-                />
+                <img src="./Assets/iphone12.png" class="card-img-top" alt="Iphone 12" />
                 <div class="card-body">
                   <p class="small">
                     IPHONE 12. 2020 EDITION. 4GB RAM. 256GB ROM.
@@ -354,11 +299,7 @@
             </div>
             <div class="col-6 col-md-3">
               <div class="card card-space ">
-                <img
-                  src="./Assets/iphone12.png"
-                  class="card-img-top"
-                  alt="Iphone 12"
-                />
+                <img src="./Assets/iphone12.png" class="card-img-top" alt="Iphone 12" />
                 <div class="card-body">
                   <p class="small">
                     IPHONE 12. 2020 EDITION. 4GB RAM. 256GB ROM.
@@ -374,11 +315,7 @@
             </div>
             <div class="col-6 col-md-3">
               <div class="card card-space ">
-                <img
-                  src="./Assets/iphone12.png"
-                  class="card-img-top"
-                  alt="Iphone 12"
-                />
+                <img src="./Assets/iphone12.png" class="card-img-top" alt="Iphone 12" />
                 <div class="card-body">
                   <p class="small">
                     IPHONE 12. 2020 EDITION. 4GB RAM. 256GB ROM.
@@ -394,11 +331,7 @@
             </div>
             <div class="col-6 col-md-3">
               <div class="card card-space ">
-                <img
-                  src="./Assets/iphone12.png"
-                  class="card-img-top"
-                  alt="Iphone 12"
-                />
+                <img src="./Assets/iphone12.png" class="card-img-top" alt="Iphone 12" />
                 <div class="card-body">
                   <p class="small">
                     IPHONE 12. 2020 EDITION. 4GB RAM. 256GB ROM.
@@ -419,8 +352,7 @@
             <i class="fas fa-mobile"></i>
           </a>
           <a class="text-dark text-decoration-none small add-info" href="./search.html">
-            View all</a
-          >
+            View all</a>
         </div>
       </article>
     </section>
@@ -431,11 +363,7 @@
           <div class="row">
             <div class="col-6">
               <div class="flex flex-column mt-3">
-                <img
-                  src="./Assets/apple.png"
-                  alt="Apple logo"
-                  class="nav-image my-2"
-                />
+                <img src="./Assets/apple.png" alt="Apple logo" class="nav-image my-2" />
                 <p class="small">
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                   Incidunt,ipsum debitis! Aliquid voluptas animi suscipit atque
@@ -448,85 +376,44 @@
             <div class="col-6">
               <div class="d-flex flex-column mt-5">
                 <h6 class="text-danger border-bottom">CATEGORIES</h6>
-                <a
-                  class="small text-decoration-none text-dark"
-                  href="./search.html"
-                  >Lorem ipsum</a
-                >
-                <a
-                  class="small text-decoration-none text-dark"
-                  href="./search.html"
-                  >Lorem ipsum</a
-                >
-                <a
-                  class="small text-decoration-none text-dark"
-                  href="./search.html"
-                  >Lorem ipsum</a
-                >
-                <a
-                  class="small text-decoration-none text-dark"
-                  href="./search.html"
-                  >Lorem ipsum</a
-                >
-                <a
-                  class="small text-decoration-none text-dark"
-                  href="./search.html"
-                  >Lorem ipsum</a
-                >
-                <a
-                  class="small text-decoration-none text-dark"
-                  href="./search.html"
-                  >Lorem ipsum</a
-                >
-                <a
-                  class="small text-decoration-none text-dark"
-                  href="./search.html"
-                  >Lorem ipsum</a
-                >
-                <a
-                  class="small text-decoration-none text-dark"
-                  href="./search.html"
-                  >Lorem ipsum</a
-                >
-                <a
-                  class="small text-decoration-none text-dark"
-                  href="./search.html"
-                  >Lorem ipsum</a
-                >
-                <a
-                  class="small text-decoration-none text-dark"
-                  href="./search.html"
-                  >Lorem ipsum</a
-                >
+                <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+                <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+                <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+                <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+                <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+                <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+                <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+                <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+                <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
+                <a class="small text-decoration-none text-dark" href="./search.html">Lorem ipsum</a>
               </div>
             </div>
           </div>
         </div>
       </article>
     </section>
-    </main>
-<!-- footer -->
-    <footer>
-      <div class="d-flex flex-row flex-wrap small justify-content-center ">
-        <p>Copyright &copy;</p>
-        <p>AppleShop.com</p>
-        <p>All rights reserved.</p>
-        <p>Designed by Elvis Kariithi</p>
-      </div>
-    </footer>
-    <!-- Optional JavaScript; choose one of the two! -->
+  </main>
+  <!-- footer -->
+  <footer>
+    <div class="d-flex flex-row flex-wrap small justify-content-center ">
+      <p>Copyright &copy;</p>
+      <p>AppleShop.com</p>
+      <p>All rights reserved.</p>
+      <p>Designed by Elvis Kariithi</p>
+    </div>
+  </footer>
+  <!-- Optional JavaScript; choose one of the two! -->
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->
-  </body>
+</body>
+
 </html>

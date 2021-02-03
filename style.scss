@@ -23,21 +23,21 @@ $section-color: #888888;
 }
 
 @font-face {
-  font-family:"helve-medium";
+  font-family: "helve-medium";
   src: url("/fonts/FontsFree-Net-HelveticaNeueMedium.ttf");
 }
 
-@font-face{
-  font-family:"helve-light";
-  src:url("/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf")
+@font-face {
+  font-family: "helve-light";
+  src: url("/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf");
 }
 
-@font-face{
-  font-family:"gotham-bold";
+@font-face {
+  font-family: "gotham-bold";
   src: url("/fonts/Gotham-Bold.otf");
 }
 
-@font-face{
+@font-face {
   font-family: "gotham-rounded";
   src: url("/fonts/Gotham-Rounded-Light_21020.ttf");
 }
@@ -47,7 +47,7 @@ $section-color: #888888;
   background-color: $darkgrey;
 }
 
-.icon-color{
+.icon-color {
   color: $pink;
 }
 
@@ -58,12 +58,12 @@ $section-color: #888888;
   font-family: "gotham-rounded";
 }
 
-.home-navigation{
+.home-navigation {
   color: $pink;
 }
 
 .text-format {
-  font-family:"helve-bold";
+  font-family: "helve-bold";
   color: $font-white;
   font-weight: $bold-dark;
 }
@@ -72,21 +72,21 @@ $section-color: #888888;
   background-color: $pink;
   color: $font-white;
   font-weight: $bold-light;
-  .header-font{
+
+  .header-font {
     font-family: "gotham-bold";
   }
 
-  .header-font-2{
+  .header-font-2 {
     font-family: "gotham-rounded";
   }
-  
-  .form-font{
+
+  .form-font {
     font-family: "helve-medium";
   }
-  
 }
 
-.input-form{
+.input-form {
   border: $none-styling;
   border-radius: $button-edges;
 }
@@ -128,7 +128,7 @@ $section-color: #888888;
   margin-top: 0.5rem;
 }
 
-.hot-deals-text{
+.hot-deals-text {
   font-family: "gotham-rounded";
 }
 
@@ -140,7 +140,7 @@ $section-color: #888888;
   font-family: "gotham-rounded";
 }
 
-.button-padding{
+.button-padding {
   padding-bottom: 1rem;
 }
 
@@ -149,39 +149,41 @@ $section-color: #888888;
   font-family: "gotham-rounded";
 }
 
-.card-space{
-  margin: 1rem 0.5rem 0 0.5rem ;
+.card-space {
+  margin: 1rem 0.5rem 0 0.5rem;
 }
 
-.add-info, .section-three-font, footer,{
+.add-info,
+.section-three-font,
+footer {
   font-family: "helve-medium";
 }
 
-.checkbox-font, .results-font{
+.checkbox-font,
+.results-font {
   font-family: "gotham-light";
 }
 
-@media screen and (max-width:767px){
-  .header-two{
+@media screen and (max-width: 767px) {
+  .header-two {
     display: flex;
     flex-direction: column;
   }
 }
 
-@media screen and (min-width:768px){
-  .input-area{
+@media screen and (min-width: 768px) {
+  .input-area {
     display: flex;
     flex-direction: row;
     // justify-content: center;
     align-items: center;
   }
 
-
   // .resp-width{
   //   width: 20%;
   // }
 
-  .arrows{
+  .arrows {
     padding-right: 20px;
     padding-left: 20px;
   }
