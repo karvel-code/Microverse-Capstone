@@ -30,38 +30,44 @@
         <nav>
           <!-- first header -->
           <div
-            class="first-header d-flex d-sm-flex flex-sm-row justify-content-between"
+            class="first-header d-flex d-sm-flex flex-sm-row justify-content-center"
           >
-            <div class="d-flex d-sm-flex">
+            <div class="d-flex d-sm-flex header-items">
               <img
                 src="./Assets/apple.png"
                 alt="Apple logo"
                 class="nav-image"
               />
-              <p class="mx-2 mt-2 pt-2 text-format">Apple Shop</p>
+              <p class=" mt-2 pt-2 text-format ">APPLE</p>
             </div>
             <a
-              class="mt-3 home d-block icon-color text-decoration-none"
+              class="mt-3 home d-none d-md-block icon-color text-decoration-none header-items"
               href="./index.html"
-              ><i class="fas fa-home"></i> Home</a
+              ><i class="fas fa-home"></i> HOME</a
             >
             <a
-              class="mt-3 d-none d-md-block icon-color text-decoration-none"
+              class="mt-3 d-none d-md-block header-text-color text-decoration-none header-items"
               href="#"
-              ><i class="fas fa-th-large"></i> Collections</a
+              ><i class="fas fa-th-large"></i> COLLECTIONS</a
             >
             <a
-              class="mt-3 d-none d-md-block icon-color text-decoration-none"
+              class="mt-3 d-none d-md-block icon-color header-text-color text-decoration-none header-items"
               href="#"
               ><i class="fas fa-shopping-cart"></i
             ></a>
-            <div>
-              <button
+            <div class="mt-3">
+              <a
+                  href="./search.html"
+                  class="p-2 d-inline text-decoration-none hot-deals-button header-items"
+                >
+                 POST AN AD
+                </a>
+              <!-- <button
                 type="button"
-                class="first-header-button mt-3 mx-2 text-white"
+                class="first-header-button  text-white "
               >
-                Adverts
-              </button>
+               POST AN AD
+              </button> -->
             </div>
           </div>
           <!-- second header -->
@@ -69,21 +75,21 @@
             class="d-flex flex-column flex-sm-column header-two align-center"
           >
             <div>
-              <h1 class="mb-0 text-center header-font">Apple Shop</h1>
-              <h2 class="mb-0 text-center header-font-2">
+              <h1 class="mb-0  mt-5 text-center header-font"> <b>APPLE </b></h1>
+              <h6 class="mb-0 text-center header-font-2">
                 Get your Apple products from us today!
-              </h2>
+              </h6>
             </div>
             <div>
-              <form class="form-font input-row">
-                <div class="mb-1 form-width input-space">
+              <form class=" input-row">
+                <div class="mb-1 input-space ">
                   <input
                     type="text"
                     class="form-control my-2"
                     placeholder="Iphone type "
                   />
                 </div>
-                <div class="mb-1 form-width input-space">
+                <div class="mb-1 input-space ">
                   <input
                     type="text"
                     class="form-control my-2"
@@ -105,7 +111,7 @@
       </header>
       <!-- section 1 -->
       <div class="grid">
-        <section class="section-1">
+        <section class="section-1 search-font">
           <article class="container checkbox-font small">
             <div class="row">
               <div class="col-12 mt-1">
@@ -176,7 +182,7 @@
           </article>
         </section>
         <!-- section 2 -->
-        <section>
+        <section class="search-font">
           <article class="container results-font">
             <div class="row">
               <div class="col-12">
@@ -184,14 +190,16 @@
                   179 results found. How can we help you?
                 </p>
                 <div
-                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top "
                 >
                   <div>
                     <img src="./Assets/iphone11.jpg" alt="iphone 11" class="" />
                   </div>
                   <div>
-                    <p>IPHONE 11 PRO</p>
-                    <p class="text-danger small">Brand New, From Amazon</p>
+                    <div class="mt-2">
+                    <p class="search-head">IPHONE 11 PRO</p>
+                    <p class="add-info small">Brand New, From Amazon</p>
+                    </div>
                     <p>
                       Dual 12MP Ultra Wide and Wide cameras Ultra Wide: ƒ/2.4
                       aperture and 120° field of view Portrait mode with
@@ -205,7 +213,7 @@
                       <div>
                         <a
                           href="#"
-                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white bg-danger price-button"
+                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
                         >
                           $1000
                         </a>
@@ -216,14 +224,16 @@
               </div>
               <div class="col-12">
                 <div
-                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top "
                 >
                   <div>
                     <img src="./Assets/iphone11.jpg" alt="iphone 11" class="" />
                   </div>
                   <div>
-                    <p>IPHONE 11 PRO</p>
-                    <p class="text-danger small">Brand New, From Amazon</p>
+                    <div class="mt-2">
+                    <p class="search-head">IPHONE 11 PRO</p>
+                    <p class="add-info small">Brand New, From Amazon</p>
+                    </div>
                     <p>
                       Dual 12MP Ultra Wide and Wide cameras Ultra Wide: ƒ/2.4
                       aperture and 120° field of view Portrait mode with
@@ -237,7 +247,7 @@
                       <div>
                         <a
                           href="#"
-                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white  bg-danger price-button"
+                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
                         >
                           $1000
                         </a>
@@ -248,14 +258,16 @@
               </div>
               <div class="col-12">
                 <div
-                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top "
                 >
                   <div>
                     <img src="./Assets/iphone11.jpg" alt="iphone 11" class="" />
                   </div>
                   <div>
-                    <p>IPHONE 11 PRO</p>
-                    <p class="text-danger small">Brand New, From Amazon</p>
+                    <div class="mt-2">
+                    <p class="search-head">IPHONE 11 PRO</p>
+                    <p class="add-info small">Brand New, From Amazon</p>
+                    </div>
                     <p>
                       Dual 12MP Ultra Wide and Wide cameras Ultra Wide: ƒ/2.4
                       aperture and 120° field of view Portrait mode with
@@ -269,7 +281,7 @@
                       <div>
                         <a
                           href="#"
-                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white bg-danger price-button"
+                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
                         >
                           $1000
                         </a>
@@ -280,14 +292,16 @@
               </div>
               <div class="col-12">
                 <div
-                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top "
                 >
                   <div>
                     <img src="./Assets/iphone11.jpg" alt="iphone 11" class="" />
                   </div>
                   <div>
-                    <p>IPHONE 11 PRO</p>
-                    <p class="text-danger small">Brand New, From Amazon</p>
+                    <div class="mt-2">
+                    <p class="search-head">IPHONE 11 PRO</p>
+                    <p class="add-info small">Brand New, From Amazon</p>
+                    </div>
                     <p>
                       Dual 12MP Ultra Wide and Wide cameras Ultra Wide: ƒ/2.4
                       aperture and 120° field of view Portrait mode with
@@ -301,7 +315,7 @@
                       <div>
                         <a
                           href="#"
-                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white bg-danger price-button"
+                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
                         >
                           $1000
                         </a>
@@ -312,14 +326,16 @@
               </div>
               <div class="col-12">
                 <div
-                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top "
                 >
                   <div>
                     <img src="./Assets/iphone11.jpg" alt="iphone 11" class="" />
                   </div>
                   <div>
-                    <p>IPHONE 11 PRO</p>
-                    <p class="text-danger small">Brand New, From Amazon</p>
+                    <div class="mt-2">
+                    <p class="search-head">IPHONE 11 PRO</p>
+                    <p class="add-info small">Brand New, From Amazon</p>
+                    </div>
                     <p>
                       Dual 12MP Ultra Wide and Wide cameras Ultra Wide: ƒ/2.4
                       aperture and 120° field of view Portrait mode with
@@ -333,7 +349,7 @@
                       <div>
                         <a
                           href="#"
-                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white  bg-danger price-button"
+                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
                         >
                           $1000
                         </a>
@@ -344,14 +360,16 @@
               </div>
               <div class="col-12">
                 <div
-                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top "
                 >
                   <div>
                     <img src="./Assets/iphone11.jpg" alt="iphone 11" class="" />
                   </div>
                   <div>
-                    <p>IPHONE 11 PRO</p>
-                    <p class="text-danger small">Brand New, From Amazon</p>
+                    <div class="mt-2">
+                    <p class="search-head">IPHONE 11 PRO</p>
+                    <p class="add-info small">Brand New, From Amazon</p>
+                    </div>
                     <p>
                       Dual 12MP Ultra Wide and Wide cameras Ultra Wide: ƒ/2.4
                       aperture and 120° field of view Portrait mode with
@@ -365,7 +383,7 @@
                       <div>
                         <a
                           href="#"
-                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white  bg-danger price-button"
+                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
                         >
                           $1000
                         </a>
@@ -376,14 +394,16 @@
               </div>
               <div class="col-12">
                 <div
-                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top"
+                  class="d-flex d-sm-flex flex-row flex-sm-row border-bottom border-top "
                 >
                   <div>
                     <img src="./Assets/iphone11.jpg" alt="iphone 11" class="" />
                   </div>
                   <div>
-                    <p>IPHONE 11 PRO</p>
-                    <p class="text-danger small">Brand New, From Amazon</p>
+                    <div class="mt-2">
+                    <p class="search-head">IPHONE 11 PRO</p>
+                    <p class="add-info small">Brand New, From Amazon</p>
+                    </div>
                     <p>
                       Dual 12MP Ultra Wide and Wide cameras Ultra Wide: ƒ/2.4
                       aperture and 120° field of view Portrait mode with
@@ -397,7 +417,7 @@
                       <div>
                         <a
                           href="#"
-                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white bg-danger"
+                          class="p-1 mx-1 d-inline text-decoration-none text-center text-white price-button"
                         >
                           $1000
                         </a>

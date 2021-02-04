@@ -40,6 +40,10 @@
   color: #d35266;
 }
 
+.header-text-color {
+  color: #888;
+}
+
 .first-header-button {
   border-radius: 10%;
   background-color: #d35266;
@@ -51,18 +55,14 @@
   color: #d35266;
 }
 
+.header-items {
+  margin-right: 3rem;
+}
+
 .text-format {
-  font-family: "helve-bold", sans-serif;
+  font-family: "gotham-bold", sans-serif;
   color: white;
   font-weight: 700;
-}
-
-.header-two-1 {
-  width: 100%;
-}
-
-.header-two-1 input {
-  width: 50vw;
 }
 
 .header-two {
@@ -79,7 +79,7 @@
 }
 
 .header-two .header-font-2 {
-  font-family: "gotham-rounded", sans-serif;
+  font-weight: 500;
 }
 
 .header-two .form-font {
@@ -101,10 +101,6 @@
 
 .input-group select {
   width: 50vw;
-}
-
-.form-width {
-  margin: auto;
 }
 
 .second-header-button {
@@ -138,6 +134,11 @@
   align-items: center;
 }
 
+.hot-deal {
+  color: #383838;
+  font-weight: 700;
+}
+
 .p-hot-deals {
   color: #d35266;
   font-family: "helve-medium", sans-serif;
@@ -151,8 +152,9 @@
 .hot-deals-button {
   background-color: #d35266;
   color: white;
-  border-radius: 10%;
+  border-radius: 5%;
   border: none;
+  margin-right: 1px;
   font-family: "gotham-rounded", sans-serif;
 }
 
@@ -161,12 +163,22 @@
 }
 
 .section-formatting {
-  background-color: #888;
+  background-color: #f8f8f8;
   font-family: "gotham-rounded", sans-serif;
 }
 
 .card-space {
   margin: 1rem 0.5rem 0 0.5rem;
+}
+
+.card-font {
+  font-family: "gotham-light", sans-serif;
+  font-weight: 600;
+}
+
+.add-info {
+  font-weight: 600;
+  color: #d35266;
 }
 
 .add-info,
@@ -178,6 +190,22 @@ footer {
 .checkbox-font,
 .results-font {
   font-family: "gotham-light", sans-serif;
+}
+
+.price-button {
+  background-color: #d35266;
+  border-radius: 5%;
+  font-weight: 600;
+}
+
+.search-font {
+  font-family: "gotham-medium", sans-serif;
+  font-size: 0.9em;
+  color: #383838;
+}
+
+.search-head {
+  font-weight: 600;
 }
 
 @media screen and (max-width: 767px) {

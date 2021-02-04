@@ -4,12 +4,14 @@ $pink: #d35266;
 $bold-light: 500;
 $bold-dark: 700;
 $button-edges: 10%;
+$button-edges-s: 5%;
 $margin-center: auto;
 $font-white: white;
 $width-size-half: 50%;
 $none-styling: none;
 $centre-align: center;
-$section-color: #888;
+$gray: #888;
+$section-color: #f8f8f8;
 
 //styling
 * {
@@ -51,6 +53,10 @@ $section-color: #888;
   color: $pink;
 }
 
+.header-text-color {
+  color: $gray;
+}
+
 .first-header-button {
   border-radius: $button-edges;
   background-color: $pink;
@@ -62,18 +68,14 @@ $section-color: #888;
   color: $pink;
 }
 
-.text-format {
-  font-family: "helve-bold", sans-serif;
-  color: $font-white;
-  font-weight: $bold-dark;
+.header-items {
+  margin-right: 3rem;
 }
 
-.header-two-1 {
-  width: 100%;
-
-  input {
-    width: 50vw;
-  }
+.text-format {
+  font-family: "gotham-bold", sans-serif;
+  color: $font-white;
+  font-weight: $bold-dark;
 }
 
 .header-two {
@@ -87,7 +89,7 @@ $section-color: #888;
   }
 
   .header-font-2 {
-    font-family: "gotham-rounded", sans-serif;
+    font-weight: $bold-light;
   }
 
   .form-font {
@@ -107,11 +109,6 @@ $section-color: #888;
   select {
     width: 50vw;
   }
-}
-
-.form-width {
-  // width: 50%;
-  margin: $margin-center;
 }
 
 .second-header-button {
@@ -140,6 +137,11 @@ $section-color: #888;
   align-items: $centre-align;
 }
 
+.hot-deal {
+  color: #383838;
+  font-weight: 700;
+}
+
 .p-hot-deals {
   color: $pink;
   font-family: "helve-medium", sans-serif;
@@ -153,8 +155,9 @@ $section-color: #888;
 .hot-deals-button {
   background-color: $pink;
   color: $font-white;
-  border-radius: $button-edges;
+  border-radius: $button-edges-s;
   border: $none-styling;
+  margin-right: 1px;
   font-family: "gotham-rounded", sans-serif;
 }
 
@@ -171,6 +174,16 @@ $section-color: #888;
   margin: 1rem 0.5rem 0 0.5rem;
 }
 
+.card-font {
+  font-family: "gotham-light", sans-serif;
+  font-weight: 600;
+}
+
+.add-info {
+  font-weight: 600;
+  color: #d35266;
+}
+
 .add-info,
 .section-three-font,
 footer {
@@ -180,6 +193,22 @@ footer {
 .checkbox-font,
 .results-font {
   font-family: "gotham-light", sans-serif;
+}
+
+.price-button {
+  background-color: $pink;
+  border-radius: $button-edges-s;
+  font-weight: 600;
+}
+
+.search-font {
+  font-family: "gotham-medium", sans-serif;
+  font-size: 0.9em;
+  color: $darkgrey;
+}
+
+.search-head {
+  font-weight: 600;
 }
 
 @media screen and (max-width: 767px) {
