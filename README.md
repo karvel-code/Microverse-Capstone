@@ -26,8 +26,10 @@ Prerequisites Text editor,Github profile and Git.
 
 - Github: [@karvel-code](https://github.com/karvel-code)
 - Linkedin: [Elvis Kariithi](https://www.linkedin.com/in/elvis-kariithi-b6b5b31b6/)
-
-🤝 Contributing Contributions, issues and feature requests are welcome!
+<h2>
+🤝 Contributing 
+</h2>
+Contributions, issues and feature requests are welcome!
 
 Feel free to check the issues page.
 

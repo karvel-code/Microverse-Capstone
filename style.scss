@@ -106,7 +106,6 @@ $section-color: #f8f8f8;
   background-color: $darkgrey;
   border: $none-styling;
   margin-top: 10px;
-  margin-left: 5px;
   padding: 7px;
 }
 
@@ -233,7 +232,7 @@ footer {
 @media screen and (min-width: 768px) {
   .header-two {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
   }
 
@@ -256,5 +255,9 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+  }
+
+  .search-button {
+    margin-left: 5px;
   }
 }

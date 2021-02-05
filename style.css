@@ -98,7 +98,6 @@
   background-color: #383838;
   border: none;
   margin-top: 10px;
-  margin-left: 5px;
   padding: 7px;
 }
 
@@ -235,10 +234,10 @@ footer {
   .header-two {
     display: -webkit-box;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
@@ -273,6 +272,10 @@ footer {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .search-button {
+    margin-left: 5px;
   }
 }
 
