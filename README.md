@@ -17,7 +17,7 @@ Live Demo : [The-livedemo-link](https://karvel-code.github.io/Microverse-Capston
 
 To get a local copy up and running follow these simple example steps.
 
-1. Go to https://github.com/karvel-code/NewYorkTimes-Article-/tree/features/homepage
+1. Go to https://karvel-code.github.io/Microverse-Capstone/index.html
 2. Click on code and copy the html code.
 3. Use git bash to clone this repository on your local machine.
 4. Run git checkout -b your-branch-name Make your contributions
