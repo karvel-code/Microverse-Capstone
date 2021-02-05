@@ -227,6 +227,15 @@ footer {
     display: flex;
     flex-direction: column;
   }
+
+  .img-resp {
+    min-width: 100px;
+    flex: 1;
+
+    img {
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (min-width: 768px) {

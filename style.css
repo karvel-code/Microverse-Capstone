@@ -228,6 +228,17 @@ footer {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
+  .img-resp {
+    min-width: 100px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .img-resp img {
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
