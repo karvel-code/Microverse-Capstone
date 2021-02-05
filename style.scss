@@ -90,6 +90,10 @@ $section-color: #f8f8f8;
   }
 }
 
+.input-space{
+  border: 2px solid $pink;
+}
+
 .border-rad {
   border-radius: 0;
   border: $none-styling;
@@ -107,6 +111,7 @@ $section-color: #f8f8f8;
   border: $none-styling;
   margin-top: 10px;
   padding: 7px;
+  padding-right: 1px;
 }
 
 .nav-image {
