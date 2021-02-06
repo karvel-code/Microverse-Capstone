@@ -1,0 +1,277 @@
+//variables
+$darkgrey: #383838;
+$pink: #d35266;
+$bold-light: 500;
+$bold-dark: 700;
+$button-edges: 10%;
+$button-edges-s: 5%;
+$margin-center: auto;
+$font-white: white;
+$width-size-half: 50%;
+$none-styling: none;
+$centre-align: center;
+$gray: #888;
+$section-color: #f8f8f8;
+
+//styling
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "helve-bold", sans-serif;
+  src: url("/fonts/FontsFree-Net-HelveticaNeueBold.ttf");
+}
+
+@font-face {
+  font-family: "helve-medium", sans-serif;
+  src: url("/fonts/FontsFree-Net-HelveticaNeueMedium.ttf");
+}
+
+@font-face {
+  font-family: "helve-light", sans-serif;
+  src: url("/fonts/FontsFree-Net-HelveticaNeueUltraLight.ttf");
+}
+
+@font-face {
+  font-family: "gotham-bold", sans-serif;
+  src: url("/fonts/Gotham-Bold.otf");
+}
+
+@font-face {
+  font-family: "gotham-rounded", sans-serif;
+  src: url("/fonts/Gotham-Rounded-Light_21020.ttf");
+}
+
+.first-header {
+  flex-direction: row;
+  background-color: $darkgrey;
+}
+
+.icon-color {
+  color: $pink;
+}
+
+.header-text-color {
+  color: $gray;
+}
+
+.home-navigation {
+  color: $pink;
+}
+
+.header-items {
+  margin-right: 3rem;
+}
+
+.text-format {
+  font-family: "gotham-bold", sans-serif;
+  color: $font-white;
+  font-weight: $bold-dark;
+}
+
+.header-two {
+  background-color: $pink;
+  color: $font-white;
+  font-weight: $bold-light;
+  align-items: center;
+
+  .header-font {
+    font-family: "gotham-bold", sans-serif;
+  }
+
+  .header-font-2 {
+    font-weight: $bold-light;
+  }
+
+  .form-font {
+    font-family: "helve-medium", sans-serif;
+  }
+}
+
+.input-space {
+  border: 2px solid $pink;
+}
+
+.border-rad {
+  border-radius: 0;
+  border: $none-styling;
+  padding: 7px;
+  margin-right: 2px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+}
+
+.search-button {
+  background-color: $darkgrey;
+  border: $none-styling;
+  margin-top: 10px;
+  padding: 7px;
+  padding-right: 1px;
+}
+
+.nav-image {
+  width: 50px;
+}
+
+.hot-deals {
+  flex-direction: row;
+  align-items: $centre-align;
+}
+
+.hot-deal {
+  color: #383838;
+  font-weight: 700;
+}
+
+.p-hot-deals {
+  color: $pink;
+  font-family: "helve-medium", sans-serif;
+  margin-top: 0.5rem;
+}
+
+.hot-deals-text {
+  font-family: "gotham-rounded", sans-serif;
+}
+
+.hot-deals-button {
+  background-color: $pink;
+  color: $font-white;
+  border-radius: $button-edges-s;
+  border: $none-styling;
+  margin-right: 1px;
+  font-family: "gotham-rounded", sans-serif;
+}
+
+.button-padding {
+  padding-bottom: 1rem;
+}
+
+.section-formatting {
+  background-color: $section-color;
+  font-family: "gotham-rounded", sans-serif;
+}
+
+.card-space {
+  margin: 1rem 0.5rem;
+}
+
+.card-font {
+  font-family: "gotham-light", sans-serif;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.add-info {
+  font-weight: 600;
+  color: #d35266;
+}
+
+.add-info,
+.section-three-font,
+footer {
+  font-family: "helve-medium", sans-serif;
+}
+
+.checkbox-font,
+.results-font {
+  font-family: "gotham-light", sans-serif;
+}
+
+.price-button {
+  background-color: $pink;
+  border-radius: $button-edges-s;
+  font-weight: 600;
+}
+
+.search-font {
+  font-family: "gotham-medium", sans-serif;
+  font-size: 0.9em;
+  color: $darkgrey;
+}
+
+.search-head {
+  font-weight: 600;
+}
+
+.category-text {
+  color: $pink;
+  font-weight: 600;
+}
+
+.item-left {
+  margin-right: 10%;
+}
+
+.item-right {
+  margin-left: 10%;
+}
+
+.arrow-position {
+  position: relative;
+}
+
+.arrow-left {
+  position: absolute;
+  top: 30%;
+  left: 1px;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 30%;
+  right: 1px;
+}
+
+@media screen and (max-width: 767px) {
+  .header-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img-resp {
+    min-width: 100px;
+    flex: 1;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .arrows {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+  }
+
+  .section-1 {
+    border-right: 1px solid #888;
+  }
+
+  .input-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .search-button {
+    margin-left: 5px;
+  }
+}
