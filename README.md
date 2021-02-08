@@ -11,7 +11,7 @@ This is a project to demonstrate the existing knowledge of HTML and CSS. It is a
 
 <i>Built With HTML5, CSS3, GIT, Bootstrap, SASS and VSCODE</i>
 
-Live Demo : [The-livedemo-link](https://karvel-code.github.io/Microverse-Capstone/search.html)
+Live Demo : [The-livedemo-link](https://karvel-code.github.io/Microverse-Capstone/index.html)
 
 <h1>Getting Started</h1>
 
